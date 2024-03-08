@@ -37,6 +37,16 @@
             "label": "Simple Dark",
             "uiTheme": "vs-dark",
             "path": "./themes/simple dark-color-theme.json"
+         },
+         {
+            "label": "Simple Dark darker",
+            "uiTheme": "vs-dark",
+            "path": "./themes/simple dark darker-color-theme.json"
+         },
+         {
+            "label": "Simple Dark blue",
+            "uiTheme": "vs-dark",
+            "path": "./themes/simple dark blue-color-theme.json"
          }
       ]
    }
