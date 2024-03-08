@@ -4,7 +4,7 @@
 
 **Better Coding Theme** is a [Visual Studio Code](https://code.visualstudio.com/) extension that adds themes titled `"Better Coding"`.
 
-There are 3 different themes:
+There are 4 different themes:
 
 -  Dark theme
 -  Dark+ theme
