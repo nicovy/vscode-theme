@@ -1,12 +1,12 @@
 {
-   "name": "better-coding",
-   "displayName": "Better Coding",
-   "description": "Better Coding theme",
-   "publisher": "Better Coding",
+   "name": "better-coding-theme",
+   "displayName": "Better Coding Theme",
+   "description": "A comfortable theme extension for VS Code",
+   "publisher": "nicovy",
    "author": {
       "name": "Nicolas Veas"
    },
-   "version": "0.0.1",
+   "version": "1.0.0",
    "engines": {
       "vscode": "^1.87.0"
    },
