@@ -1,3 +1,3 @@
-# Better Codding Theme for Visual Studio Code
+# Better Coding Theme for Visual Studio Code
 
 **Enjoy!**

@@ -2,7 +2,7 @@
    "name": "simple-dark",
    "displayName": "Simple Dark",
    "description": "Simple Dark theme",
-   "publisher": "Better Codding",
+   "publisher": "Better Coding",
    "author": {
       "name": "Nicolas Veas"
    },
@@ -26,7 +26,7 @@
       "Themes"
    ],
    "keywords": [
-      "Better Codding Theme",
+      "Better Coding Theme",
       "Dark Theme",
       "VSCode",
       "blue"
