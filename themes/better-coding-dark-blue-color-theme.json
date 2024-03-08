@@ -171,10 +171,15 @@
          }
       },
       {
-         "name": "js/ts punctuation separator",
-         "scope": "punctuation.separator, punctuation.terminator",
+         "scope": "punctuation.separator, punctuation.terminator,punctuation.accessor",
          "settings": {
             "foreground": "#999999"
+         }
+      },
+      {
+         "scope": "punctuation.accessor.optional",
+         "settings": {
+            "foreground": "#cdcdcd"
          }
       },
       {
