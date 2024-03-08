@@ -225,6 +225,12 @@
          }
       },
       {
+         "scope": "source.java-properties",
+         "settings": {
+            "foreground": "#cc8c6c"
+         }
+      },
+      {
          "name": "java annotation",
          "scope": ["punctuation.definition.annotation.java", "storage.type.annotation.java"],
          "settings": {
