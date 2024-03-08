@@ -6,7 +6,7 @@
    "author": {
       "name": "Nicolas Veas"
    },
-   "version": "1.1.3",
+   "version": "1.1.4",
    "engines": {
       "vscode": "^1.87.0"
    },
