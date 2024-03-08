@@ -789,7 +789,7 @@
          "name": "Constants",
          "scope": "constant",
          "settings": {
-            "foreground": "#e4bf7f"
+            "foreground": "#f7c56f"
          }
       },
       {
@@ -1073,14 +1073,14 @@
          "name": "[VSCODE-CUSTOM] JSON Property Name",
          "scope": "support.type.property-name.json",
          "settings": {
-            "foreground": "#b675d2"
+            "foreground": "#cc8c6c"
          }
       },
       {
          "name": "[VSCODE-CUSTOM] JSON Punctuation for Property Name",
          "scope": "support.type.property-name.json punctuation",
          "settings": {
-            "foreground": "#b675d2"
+            "foreground": "#cc8c6c"
          }
       },
       {
