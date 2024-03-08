@@ -5,12 +5,14 @@
    "semanticTokenColors": {
       "class": "#cc8c6c",
       "enum": "#cc8c6c",
+      "enumMember": {
+         "foreground": "#b675d2",
+         "italic": true
+      },
       "function": "#61afef",
       "keyword": "#a086ef",
       "namespace": "#cc8c6c",
       "parameter": "#e4bf7f",
-      "property": "#b675d2",
-      "type": "#cc8c6c",
       "variable": "#b0b7c3"
    },
    "tokenColors": [
@@ -198,14 +200,14 @@
       },
       {
          "name": "js/ts variable.other.constant",
-         "scope": "variable.other.constant",
+         "scope": ["variable.other.constant", "variable.other.definition.java"],
          "settings": {
-            "foreground": "#cc8c6c"
+            "foreground": "#b0b7c3"
          }
       },
       {
          "name": "java type",
-         "scope": ["storage.type.annotation.java", "storage.type.object.array.java"],
+         "scope": ["storage.type.object.array.java"],
          "settings": {
             "foreground": "#cc8c6c"
          }
@@ -218,8 +220,22 @@
          }
       },
       {
+         "name": "java annotation",
+         "scope": ["punctuation.definition.annotation.java", "storage.type.annotation.java"],
+         "settings": {
+            "foreground": "#e4bf7f"
+         }
+      },
+      {
+         "name": "java method",
+         "scope": "meta.method-call.java,meta.method.body.java",
+         "settings": {
+            "foreground": "#b0b7c3"
+         }
+      },
+      {
          "name": "java modifier.import",
-         "scope": "punctuation.section.block.begin.java,punctuation.section.block.end.java,punctuation.definition.method-parameters.begin.java,punctuation.definition.method-parameters.end.java,meta.method.identifier.java,punctuation.section.method.begin.java,punctuation.section.method.end.java,punctuation.terminator.java,punctuation.section.class.begin.java,punctuation.section.class.end.java,punctuation.section.inner-class.begin.java,punctuation.section.inner-class.end.java,meta.method-call.java,punctuation.section.class.begin.bracket.curly.java,punctuation.section.class.end.bracket.curly.java,punctuation.section.method.begin.bracket.curly.java,punctuation.section.method.end.bracket.curly.java,punctuation.separator.period.java,punctuation.bracket.angle.java,punctuation.definition.annotation.java,meta.method.body.java",
+         "scope": "punctuation.section.block.begin.java,punctuation.section.block.end.java,punctuation.definition.method-parameters.begin.java,punctuation.definition.method-parameters.end.java,meta.method.identifier.java,punctuation.section.method.begin.java,punctuation.section.method.end.java,punctuation.terminator.java,punctuation.section.class.begin.java,punctuation.section.class.end.java,punctuation.section.inner-class.begin.java,punctuation.section.inner-class.end.java,punctuation.section.class.begin.bracket.curly.java,punctuation.section.class.end.bracket.curly.java,punctuation.section.method.begin.bracket.curly.java,punctuation.section.method.end.bracket.curly.java,punctuation.separator.period.java,punctuation.bracket.angle.java",
          "settings": {
             "foreground": "#999999"
          }
@@ -330,8 +346,15 @@
          }
       },
       {
+         "name": "js key value key",
+         "scope": ["meta.object-literal.key", "variable.other.property"],
+         "settings": {
+            "foreground": "#b675d2"
+         }
+      },
+      {
          "name": "js variable readwrite",
-         "scope": "variable.other.readwrite,meta.object-literal.key,support.variable.property,support.variable.object.process,support.variable.object.node",
+         "scope": "variable.other.readwrite,support.variable.property,support.variable.object.process,support.variable.object.node",
          "settings": {
             "foreground": "#b0b7c3"
          }
@@ -420,8 +443,15 @@
          }
       },
       {
+         "name": "C operator",
+         "scope": "keyword.operator.assignment.c,keyword.operator.assignment.cpp",
+         "settings": {
+            "foreground": "#999999"
+         }
+      },
+      {
          "name": "C operator assignment",
-         "scope": "keyword.operator.assignment.c,keyword.operator.comparison.c,keyword.operator.c,keyword.operator.increment.c,keyword.operator.decrement.c,keyword.operator.bitwise.shift.c,keyword.operator.assignment.cpp,keyword.operator.comparison.cpp,keyword.operator.cpp,keyword.operator.increment.cpp,keyword.operator.decrement.cpp,keyword.operator.bitwise.shift.cpp",
+         "scope": "keyword.operator.comparison.c,keyword.operator.c,keyword.operator.increment.c,keyword.operator.decrement.c,keyword.operator.bitwise.shift.c,keyword.operator.comparison.cpp,keyword.operator.cpp,keyword.operator.increment.cpp,keyword.operator.decrement.cpp,keyword.operator.bitwise.shift.cpp",
          "settings": {
             "foreground": "#a086ef"
          }
@@ -637,6 +667,13 @@
          }
       },
       {
+         "name": "Type Name graphql",
+         "scope": "support.type.graphql",
+         "settings": {
+            "foreground": "#61afef"
+         }
+      },
+      {
          "name": "Keyword Control",
          "scope": "keyword.control",
          "settings": {
@@ -752,7 +789,7 @@
          "name": "Constants",
          "scope": "constant",
          "settings": {
-            "foreground": "#cc8c6c"
+            "foreground": "#e4bf7f"
          }
       },
       {
@@ -1379,14 +1416,14 @@
          "name": "js operator.assignment",
          "scope": ["keyword.operator.assignment"],
          "settings": {
-            "foreground": "#cf68e1"
+            "foreground": "#999999"
          }
       },
       {
          "name": "go operator",
          "scope": ["keyword.operator.assignment.go"],
          "settings": {
-            "foreground": "#cc8c6c"
+            "foreground": "#999999"
          }
       },
       {
@@ -1694,7 +1731,8 @@
          "name": "js/ts italic",
          "scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter,variable.language.super",
          "settings": {
-            "fontStyle": "italic"
+            "fontStyle": "italic",
+            "foreground": "#e4bf7f"
          }
       },
       {
