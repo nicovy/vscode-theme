@@ -7,24 +7,11 @@
 There are 3 different themes:
 
 -  Dark theme
--  Darker theme
+-  Dark+ theme
+-  Black theme
 -  Dark Blue theme
 
 See the [CHANGELOG](https://github.com/nicovy/vscode-theme/blob/main/CHANGELOG.md) for the latest changes.
-
-**Enjoy!**
-
-## Dark theme
-
-![image](https://github.com/nicovy/vscode-theme/blob/main/images/screenshot.png?raw=true)
-
-## Darker theme
-
-![image](https://github.com/nicovy/vscode-theme/blob/main/images/screenshot-darker.png?raw=true)
-
-## Dark Blue theme
-
-![image](https://github.com/nicovy/vscode-theme/blob/main/images/screenshot-blue.png?raw=true)
 
 ## Installation
 
@@ -38,3 +25,23 @@ See the [CHANGELOG](https://github.com/nicovy/vscode-theme/blob/main/CHANGELOG.m
 ## Issues & Suggestions
 
 For any issues or suggestions, please use [GitHub issues](https://github.com/nicovy/vscode-theme/issues).
+
+**Enjoy!**
+
+## Screenshots
+
+### Dark theme
+
+![image](https://github.com/nicovy/vscode-theme/blob/main/images/screenshot.png?raw=true)
+
+### Dark+ theme
+
+![image](https://github.com/nicovy/vscode-theme/blob/main/images/screenshot-dark+.png?raw=true)
+
+### Dark Blue theme
+
+![image](https://github.com/nicovy/vscode-theme/blob/main/images/screenshot-blue.png?raw=true)
+
+### Black theme
+
+![image](https://github.com/nicovy/vscode-theme/blob/main/images/screenshot-darker.png?raw=true)

@@ -40,9 +40,14 @@
             "path": "./themes/better-coding-dark-color-theme.json"
          },
          {
-            "label": "Better Coding Darker",
+            "label": "Better Coding Dark+",
             "uiTheme": "vs-dark",
-            "path": "./themes/better-coding-darker-color-theme.json"
+            "path": "./themes/better-coding-dark+-color-theme.json"
+         },
+         {
+            "label": "Better Coding Black",
+            "uiTheme": "vs-dark",
+            "path": "./themes/better-coding-black-color-theme.json"
          },
          {
             "label": "Better Coding Dark blue",
