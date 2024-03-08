@@ -1,6 +1,6 @@
 # Better Coding Theme for Visual Studio Code
 
-[![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-1.87.0-blue)](https://code.visualstudio.com/extension/extension-center?itemName=nicovy.better-coding-theme)
+[![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-1.87.0-blue)](https://marketplace.visualstudio.com/items?itemName=nicovy.better-coding-theme)
 
 **Better Coding Theme** is a [Visual Studio Code](https://code.visualstudio.com/) extension that adds themes titled `"Better Coding"`.
 
