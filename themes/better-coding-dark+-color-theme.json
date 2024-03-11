@@ -821,6 +821,7 @@
          "name": "Attributes",
          "scope": "entity.other.attribute-name",
          "settings": {
+            "fontStyle": "italic",
             "foreground": "#e4bf7f"
          }
       },
@@ -1739,8 +1740,8 @@
          }
       },
       {
-         "name": "js/ts italic",
-         "scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter,variable.language.super",
+         "name": "variable parameters",
+         "scope": "variable.parameter,variable.language.super",
          "settings": {
             "fontStyle": "italic",
             "foreground": "#e4bf7f"
@@ -1774,9 +1775,9 @@
       },
       {
          "name": "meta.paragraph.markdown",
-         "scope": "text.html,meta.paragraph.markdown,text.html.markdown",
+         "scope": "text.html,text.svelte,meta.paragraph.markdown,text.html.markdown",
          "settings": {
-            "foreground": "#b0b7c3"
+            "foreground": "#8792aa"
          }
       }
    ],
