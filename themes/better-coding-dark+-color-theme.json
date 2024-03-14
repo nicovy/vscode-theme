@@ -450,7 +450,7 @@
          "name": "keyword.operator",
          "scope": "keyword.operator.arithmetic,keyword.operator.comparison,keyword.operator.decrement,keyword.operator.increment,keyword.operator.relational",
          "settings": {
-            "foreground": "#cf68e1"
+            "foreground": "#8792AA"
          }
       },
       {
@@ -469,7 +469,7 @@
       },
       {
          "name": "Punctuation",
-         "scope": "punctuation.separator.delimiter",
+         "scope": "punctuation.separator.delimiter,punctuation.destructuring",
          "settings": {
             "foreground": "#8792AA"
          }
@@ -548,19 +548,19 @@
          "name": "Operators",
          "scope": "keyword.operator",
          "settings": {
-            "foreground": "#cf68e1"
+            "foreground": "#8792AA"
          }
       },
       {
          "name": "Compound Assignment Operators",
          "scope": "keyword.operator.assignment.compound",
          "settings": {
-            "foreground": "#a086ef"
+            "foreground": "#cf68e1"
          }
       },
       {
-         "name": "Compound Assignment Operators js/ts",
-         "scope": "keyword.operator.assignment.compound.js,keyword.operator.assignment.compound.ts",
+         "name": "Arithmetic Assignment Operators",
+         "scope": "keyword.operator.assignment.arithmetic",
          "settings": {
             "foreground": "#cf68e1"
          }
