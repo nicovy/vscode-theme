@@ -553,7 +553,7 @@
       },
       {
          "name": "Compound Assignment Operators",
-         "scope": "keyword.operator.assignment.compound",
+         "scope": "keyword.operator.assignment.compound,keyword.operator.type",
          "settings": {
             "foreground": "#cf68e1"
          }
