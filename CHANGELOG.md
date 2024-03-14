@@ -2,9 +2,17 @@
 
 All notable changes to the "better-coding" extension will be documented in this file.
 
+## [1.1.9] - 2024-03-14
+
+### Updated
+
+-  String
+-  Sidebar
+-  Constants
+
 ## [1.1.0] - 2024-03-07
 
-## Added
+### Added
 
 -  Dark+ theme
 
