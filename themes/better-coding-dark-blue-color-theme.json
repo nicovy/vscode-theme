@@ -770,7 +770,7 @@
       },
       {
          "name": "Strings",
-         "scope": "string",
+         "scope": "string,string.unquoted.plain",
          "settings": {
             "foreground": "#68a871"
          }
@@ -1788,7 +1788,7 @@
          }
       },
       {
-         "scope": "text.html,text.svelte, meta.block",
+         "scope": "text.html,text.svelte, meta.tag",
          "settings": {
             "foreground": "#7dbaf4"
          }
