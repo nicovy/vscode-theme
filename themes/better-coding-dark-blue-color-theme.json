@@ -177,9 +177,9 @@
          }
       },
       {
-         "scope": "punctuation.accessor.optional",
+         "scope": "punctuation.accessor.optional,keyword.operator.optional",
          "settings": {
-            "foreground": "#cdcdcd"
+            "foreground": "#DDDDDD"
          }
       },
       {
@@ -379,13 +379,7 @@
       },
       {
          "name": "js/ts Keyword",
-         "scope": [
-            "keyword.operator.expression.instanceof",
-            "keyword.operator.new",
-            "keyword.operator.ternary",
-            "keyword.operator.optional",
-            "keyword.operator.expression.keyof"
-         ],
+         "scope": ["keyword.operator.expression.instanceof", "keyword.operator.new", "keyword.operator.ternary", "keyword.operator.expression.keyof"],
          "settings": {
             "foreground": "#a086ef"
          }
@@ -587,10 +581,9 @@
          }
       },
       {
-         "name": "Variables",
-         "scope": "variable.c",
+         "scope": "variable.object.property",
          "settings": {
-            "foreground": "#b0b7c3"
+            "foreground": "#b675d2"
          }
       },
       {
@@ -1432,6 +1425,12 @@
          }
       },
       {
+         "scope": "keyword.operator.type.annotation",
+         "settings": {
+            "foreground": "#8792aa"
+         }
+      },
+      {
          "name": "go operator",
          "scope": ["keyword.operator.assignment.go"],
          "settings": {
@@ -1777,7 +1776,7 @@
          "name": "meta.paragraph.markdown",
          "scope": "meta.paragraph.markdown,text.html.markdown, string.unquoted",
          "settings": {
-            "foreground": "#b0b7c3"
+            "foreground": "#bdc5d2"
          }
       },
       {
