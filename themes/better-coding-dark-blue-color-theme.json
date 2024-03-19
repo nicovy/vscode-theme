@@ -3,6 +3,7 @@
    "type": "dark",
    "semanticHighlighting": true,
    "semanticTokenColors": {
+      "builtinConstant": "#f8c162",
       "class": "#cc8c6c",
       "enum": "#cc8c6c",
       "enumMember": {
