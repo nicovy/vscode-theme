@@ -45,6 +45,11 @@
             "path": "./themes/better-coding-dark+-color-theme.json"
          },
          {
+            "label": "Better Coding Dark Black",
+            "uiTheme": "vs-dark",
+            "path": "./themes/better-coding-dark-black-color-theme.json"
+         },
+         {
             "label": "Better Coding Black",
             "uiTheme": "vs-dark",
             "path": "./themes/better-coding-black-color-theme.json"

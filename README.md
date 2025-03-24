@@ -8,6 +8,7 @@ There are 4 different themes:
 
 -  Dark theme
 -  Dark+ theme
+-  Dark Black theme
 -  Black theme
 -  Dark Blue theme
 
@@ -37,6 +38,10 @@ For any issues or suggestions, please use [GitHub issues](https://github.com/nic
 ### Dark+ theme
 
 ![image](https://github.com/nicovy/vscode-theme/blob/main/images/screenshot-dark+.png?raw=true)
+
+### Dark Black theme
+
+![image](https://github.com/nicovy/vscode-theme/blob/main/images/screenshot-dark-black.png?raw=true)
 
 ### Dark Blue theme
 
