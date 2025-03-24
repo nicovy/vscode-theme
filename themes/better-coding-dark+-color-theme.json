@@ -1795,7 +1795,7 @@
       }
    ],
    "colors": {
-      "activityBar.activeBackground": "#25272a00",
+      "activityBar.activeBackground": "#25272a",
       "activityBar.activeBorder": "#3574f0",
       "activityBar.background": "#25272a",
       "activityBar.border": "#18191b",
@@ -1803,6 +1803,11 @@
       "activityBar.inactiveForeground": "#bbbbbbaa",
       "activityBarBadge.background": "#3574f0",
       "activityBarBadge.foreground": "#ffffff",
+      "activityBarTop.activeBackground": "#25272a",
+      "activityBarTop.activeBorder": "#3574f0",
+      "activityBarTop.background": "#25272a",
+      "activityBarTop.foreground": "#dddddd",
+      "activityBarTop.inactiveForeground": "#bbbbbbaa",
       "badge.background": "#bbbbbb77",
       "badge.foreground": "#d7dae0",
       "banner.background": "#25272a",
