@@ -1958,7 +1958,7 @@
       "sideBarSectionHeader.border": "#25272a",
       "sideBarSectionHeader.foreground": "#dddddd",
       "sideBarTitle.foreground": "#dddddd",
-      "statusBar.background": "#18191b",
+      "statusBar.background": "#25272abd",
       "statusBar.border": "#25272a",
       "statusBar.debuggingBackground": "#6c2022",
       "statusBar.debuggingBorder": "#25272a",
