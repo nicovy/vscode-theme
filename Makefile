@@ -18,10 +18,10 @@ deploy:
 	# Deploy the themes
 	@make build
 	@git add *; \
-	read -p "Enter commit message: " msg
-	@git commit -m "$$msg" || true
+	read -p "Enter commit message: " msg; \
+	git commit -m "$$msg"
 	@echo "Deploying Themes..."
 	@npm version minor --force
+	@git push
 	@vsce package
 	@vsce publish
-	@git push
