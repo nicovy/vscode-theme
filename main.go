@@ -78,6 +78,18 @@ func main() {
 		return
 	}
 
+	packageJson, err := loadJson("package.json")
+	if err != nil {
+		fmt.Printf("Error loading package.json: %v\n", err)
+		return
+	}
+	shortName, ok := packageJson["shortName"].(string)
+	if !ok {
+		fmt.Println("Error: Could not parse shortName from package.json")
+		return
+	}
+	themesArray := make([]map[string]interface{}, 0)
+
 	// load template/editor-dark-color-theme.json
 	templateSyntax, err := loadJson("template/syntax-dark-color-theme.json")
 	if err != nil {
@@ -91,29 +103,43 @@ func main() {
 		fmt.Printf("Error loading editor template: %v\n", err)
 		return
 	}
-
-	packageJson, err := loadJson("package.json")
-	if err != nil {
-		fmt.Printf("Error loading package.json: %v\n", err)
-		return
-	}
-	shortName, ok := packageJson["shortName"].(string)
-	if !ok {
-		fmt.Println("Error: Could not parse shortName from package.json")
-		return
-	}
-	themesArray := make([]map[string]interface{}, 0)
-
 	// combine both objects
-	combinedDark := make(map[string]interface{})
+	combined := make(map[string]interface{})
 	for k, v := range templateSyntax {
-		combinedDark[k] = v
+		combined[k] = v
 	}
 	for k, v := range templateEditor {
-		combinedDark[k] = v
+		combined[k] = v
 	}
 	// convert combined to json string
-	combinedJsonDark, err := json.Marshal(combinedDark)
+	combinedJsonDark, err := json.Marshal(combined)
+	if err != nil {
+		fmt.Printf("Error marshalling combined JSON: %v\n", err)
+		return
+	}
+
+	// TODO!: load template/editor-light-color-theme.json
+	templateSyntax, err = loadJson("template/syntax-dark-color-theme.json")
+	if err != nil {
+		fmt.Printf("Error loading syntax template: %v\n", err)
+		return
+	}
+
+	// TODO!: load template/editor-light-color-theme.json
+	templateEditor, err = loadJson("template/editor-dark-color-theme.json")
+	if err != nil {
+		fmt.Printf("Error loading editor template: %v\n", err)
+		return
+	}
+	// combine both objects
+	combined = make(map[string]interface{})
+	for k, v := range templateSyntax {
+		combined[k] = v
+	}
+	for k, v := range templateEditor {
+		combined[k] = v
+	}
+	combinedJsonLight, err := json.Marshal(combined)
 	if err != nil {
 		fmt.Printf("Error marshalling combined JSON: %v\n", err)
 		return
@@ -143,6 +169,9 @@ func main() {
 		}
 		if brighterLevel == -1 {
 			brighterLevel = 43
+			if themeType == "light" {
+				brighterLevel = -10
+			}
 			if bLevel != nil {
 				brighterLevel = bLevel.(float64)
 			}
@@ -153,8 +182,8 @@ func main() {
 		if themeType == "dark" {
 			combinedString = string(combinedJsonDark)
 		} else {
-			// TODO!: add light theme
-			continue
+			combinedString = string(combinedJsonLight)
+			continue // TODO!: remove this when light theme is added
 		}
 		combinedString = strings.Replace(combinedString, "[BASE]", baseColor, -1)
 		combinedString = strings.Replace(combinedString, "[BRIGHT]", secondaryColor, -1)
@@ -170,9 +199,13 @@ func main() {
 		}
 		fmt.Printf("Theme: %s, %s, Base: %s, Highlight: %s, Secondary: %s, Brighter Level: %f\n", themeType, name, baseColor, accentColor, secondaryColor, brighterLevel)
 
+		uiTheme := "vs"
+		if themeType == "dark" {
+			uiTheme = "vs-dark"
+		}
 		themesArray = append(themesArray, map[string]interface{}{
-			"label":   fmt.Sprintf("%s %s %s", shortName, strings.ToLower(themeType), strings.ToLower(name)),
-			"uiTheme": "vs-dark",
+			"label":   fmt.Sprintf("%s - %s", shortName, strings.ToLower(name)),
+			"uiTheme": uiTheme,
 			"path":    fmt.Sprintf("./%s", fileName)})
 	}
 

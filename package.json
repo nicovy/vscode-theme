@@ -11,22 +11,22 @@
   "contributes": {
     "themes": [
       {
-        "label": "Better Coding dark dark",
+        "label": "Better Coding - dark",
         "path": "./themes/dark-dark-color-theme.json",
         "uiTheme": "vs-dark"
       },
       {
-        "label": "Better Coding dark darker",
+        "label": "Better Coding - darker",
         "path": "./themes/dark-darker-color-theme.json",
         "uiTheme": "vs-dark"
       },
       {
-        "label": "Better Coding dark black",
+        "label": "Better Coding - black",
         "path": "./themes/dark-black-color-theme.json",
         "uiTheme": "vs-dark"
       },
       {
-        "label": "Better Coding dark blue",
+        "label": "Better Coding - blue",
         "path": "./themes/dark-blue-color-theme.json",
         "uiTheme": "vs-dark"
       }
