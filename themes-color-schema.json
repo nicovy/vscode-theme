@@ -29,6 +29,11 @@
                   "type": "string",
                   "description": "The accent color",
                   "format": "color"
+               },
+               "type": {
+                  "type": "string",
+                  "description": "dark or light",
+                  "enum": ["dark", "light"]
                }
             },
             "required": ["name", "baseColor", "accentColor"]

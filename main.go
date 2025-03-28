@@ -105,12 +105,18 @@ func main() {
 	themesArray := make([]map[string]interface{}, 0)
 
 	// combine both objects
-	combined := make(map[string]interface{})
+	combinedDark := make(map[string]interface{})
 	for k, v := range templateSyntax {
-		combined[k] = v
+		combinedDark[k] = v
 	}
 	for k, v := range templateEditor {
-		combined[k] = v
+		combinedDark[k] = v
+	}
+	// convert combined to json string
+	combinedJsonDark, err := json.Marshal(combinedDark)
+	if err != nil {
+		fmt.Printf("Error marshalling combined JSON: %v\n", err)
+		return
 	}
 
 	// Access the themes array
@@ -122,6 +128,7 @@ func main() {
 			continue
 		}
 
+		themeType := themeMap["type"].(string)
 		name := themeMap["name"].(string)
 		baseColor := themeMap["baseColor"].(string)
 		accentColor := themeMap["accentColor"].(string)
@@ -142,29 +149,29 @@ func main() {
 			secondaryColor, err = brightenColor(baseColor, brighterLevel)
 		}
 
-		// convert combined to json string
-		combinedJson, err := json.Marshal(combined)
-		if err != nil {
-			fmt.Printf("Error marshalling combined JSON: %v\n", err)
-			return
+		var combinedString string
+		if themeType == "dark" {
+			combinedString = string(combinedJsonDark)
+		} else {
+			// TODO!: add light theme
+			continue
 		}
-		combinedString := string(combinedJson)
 		combinedString = strings.Replace(combinedString, "[BASE]", baseColor, -1)
 		combinedString = strings.Replace(combinedString, "[BRIGHT]", secondaryColor, -1)
 		combinedString = strings.Replace(combinedString, "[ACCENT]", accentColor, -1)
 
 		// write to file
-		fileName := strings.Replace(fmt.Sprintf("themes/%s-color-theme.json", strings.ToLower(name)), " ", "-", -1)
+		fileName := strings.Replace(fmt.Sprintf("themes/%s-%s-color-theme.json", strings.ToLower(themeType), strings.ToLower(name)), " ", "-", -1)
 
 		err = os.WriteFile(fileName, []byte(combinedString), 0644)
 		if err != nil {
 			fmt.Printf("Error writing file %s: %v\n", fileName, err)
 			return
 		}
-		fmt.Printf("Theme: %s, Base: %s, Highlight: %s, Secondary: %s, Brighter Level: %f\n", name, baseColor, accentColor, secondaryColor, brighterLevel)
+		fmt.Printf("Theme: %s, %s, Base: %s, Highlight: %s, Secondary: %s, Brighter Level: %f\n", themeType, name, baseColor, accentColor, secondaryColor, brighterLevel)
 
 		themesArray = append(themesArray, map[string]interface{}{
-			"label":   fmt.Sprintf("%s %s", shortName, name),
+			"label":   fmt.Sprintf("%s %s %s", shortName, strings.ToLower(themeType), strings.ToLower(name)),
 			"uiTheme": "vs-dark",
 			"path":    fmt.Sprintf("./%s", fileName)})
 	}

@@ -3,23 +3,33 @@
 
    "themes": [
       {
+         "type": "dark",
          "name": "dark",
          "baseColor": "#1e1f22",
          "accentColor": "#3574f0"
       },
       {
+         "type": "dark",
          "name": "darker",
          "baseColor": "#18191b",
          "accentColor": "#3574f0"
       },
       {
+         "type": "dark",
          "name": "black",
          "baseColor": "#0d0d0d",
          "accentColor": "#3574f0"
       },
       {
+         "type": "dark",
          "name": "blue",
          "baseColor": "#161b22",
+         "accentColor": "#3574f0"
+      },
+      {
+         "type": "light",
+         "name": "light",
+         "baseColor": "#d6d8df",
          "accentColor": "#3574f0"
       }
    ]
