@@ -21,7 +21,8 @@ deploy:
 	read -p "Enter commit message: " msg; \
 	git commit -m "$$msg"
 	@echo "Deploying Themes..."
-	@npm version minor --force
+	@npm version minor
 	@git push
 	@vsce package
 	@vsce publish
+	@echo "Themes deployed successfully!"
