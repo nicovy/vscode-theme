@@ -53,6 +53,7 @@
       "editor.lineHighlightBackground": "[BRIGHT]99",
       "editor.rangeHighlightBackground": "[BRIGHT]bb",
       "editor.selectionBackground": "[ACCENT]33",
+      "editor.selectionHighlightBackground": "[ACCENT]33",
       "editor.wordHighlightTextBackground": "[BRIGHT]15",
       "editor.wordHighlightBackground": "[BRIGHT]25",
       "editor.wordHighlightStrongBackground": "[BRIGHT]35",
