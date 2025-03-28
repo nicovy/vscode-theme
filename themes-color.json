@@ -1,0 +1,26 @@
+{
+   "$schema": "./themes-color-schema.json",
+
+   "themes": [
+      {
+         "name": "dark",
+         "baseColor": "#1e1f22",
+         "accentColor": "#3574f0"
+      },
+      {
+         "name": "darker",
+         "baseColor": "#18191b",
+         "accentColor": "#3574f0"
+      },
+      {
+         "name": "black",
+         "baseColor": "#0d0d0d",
+         "accentColor": "#3574f0"
+      },
+      {
+         "name": "blue",
+         "baseColor": "#161b22",
+         "accentColor": "#3574f0"
+      }
+   ]
+}

@@ -4,15 +4,6 @@
 
 **Better Coding Theme** is a [Visual Studio Code](https://code.visualstudio.com/) extension that adds themes titled `"Better Coding"`.
 
-There are 6 different themes:
-
--  Dark theme
--  Dark+ theme
--  Dark+ plain theme
--  Dark Black theme
--  Black theme
--  Dark Blue theme
-
 See the [CHANGELOG](https://github.com/nicovy/vscode-theme/blob/main/CHANGELOG.md) for the latest changes.
 
 ## Installation
@@ -35,23 +26,3 @@ For any issues or suggestions, please use [GitHub issues](https://github.com/nic
 ### Dark theme
 
 ![image](https://github.com/nicovy/vscode-theme/blob/main/images/screenshot.png?raw=true)
-
-### Dark+ theme
-
-![image](https://github.com/nicovy/vscode-theme/blob/main/images/screenshot-dark+.png?raw=true)
-
-### Dark+ plain theme
-
-![image](https://github.com/nicovy/vscode-theme/blob/main/images/screenshot-dark-plain.png?raw=true)
-
-### Dark Black theme
-
-![image](https://github.com/nicovy/vscode-theme/blob/main/images/screenshot-dark-black.png?raw=true)
-
-### Dark Blue theme
-
-![image](https://github.com/nicovy/vscode-theme/blob/main/images/screenshot-blue.png?raw=true)
-
-### Black theme
-
-![image](https://github.com/nicovy/vscode-theme/blob/main/images/screenshot-darker.png?raw=true)

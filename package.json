@@ -1,74 +1,60 @@
 {
-   "name": "better-coding-theme",
-   "displayName": "Better Coding Theme",
-   "description": "A comfortable theme extension for VS Code",
-   "publisher": "nicovy",
-   "author": {
-      "name": "Nicolas Veas"
-   },
-   "version": "1.2.8",
-   "engines": {
-      "vscode": "^1.5.0"
-   },
-   "repository": {
-      "type": "git",
-      "url": "https://github.com/nicovy/vscode-theme"
-   },
-   "bugs": {
-      "url": "https://github.com/nicovy/vscode-theme/issues"
-   },
-   "galleryBanner": {
-      "color": "#2b2d30",
-      "theme": "dark"
-   },
-   "icon": "images/icon/logo_250x250.png",
-   "categories": [
-      "Themes"
-   ],
-   "keywords": [
-      "Better Coding Theme",
-      "Dark Theme",
-      "VSCode",
-      "blue",
-      "fleet"
-   ],
-   "contributes": {
-      "themes": [
-         {
-            "label": "Better Coding Dark",
-            "uiTheme": "vs-dark",
-            "path": "./themes/better-coding-dark-color-theme.json"
-         },
-         {
-            "label": "Better Coding Dark+",
-            "uiTheme": "vs-dark",
-            "path": "./themes/better-coding-dark+-color-theme.json"
-         },
-         {
-            "label": "Better Coding Dark Plain",
-            "uiTheme": "vs-dark",
-            "path": "./themes/better-coding-dark-plain-color-theme.json"
-         },
-         {
-            "label": "Better Coding Dark Plain+",
-            "uiTheme": "vs-dark",
-            "path": "./themes/better-coding-dark-plain+-color-theme.json"
-         },
-         {
-            "label": "Better Coding Dark Black",
-            "uiTheme": "vs-dark",
-            "path": "./themes/better-coding-dark-black-color-theme.json"
-         },
-         {
-            "label": "Better Coding Black",
-            "uiTheme": "vs-dark",
-            "path": "./themes/better-coding-black-color-theme.json"
-         },
-         {
-            "label": "Better Coding Dark blue",
-            "uiTheme": "vs-dark",
-            "path": "./themes/better-coding-dark-blue-color-theme.json"
-         }
-      ]
-   }
+  "author": {
+    "name": "Nicolas Veas"
+  },
+  "bugs": {
+    "url": "https://github.com/nicovy/vscode-theme/issues"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Better Coding dark",
+        "path": "./themes/dark-color-theme.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "Better Coding darker",
+        "path": "./themes/darker-color-theme.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "Better Coding black",
+        "path": "./themes/black-color-theme.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "Better Coding blue",
+        "path": "./themes/blue-color-theme.json",
+        "uiTheme": "vs-dark"
+      }
+    ]
+  },
+  "description": "A comfortable theme extension for VS Code",
+  "displayName": "Better Coding Theme",
+  "engines": {
+    "vscode": "^1.5.0"
+  },
+  "galleryBanner": {
+    "color": "#2b2d30",
+    "theme": "dark"
+  },
+  "icon": "images/icon/logo_250x250.png",
+  "keywords": [
+    "Better Coding Theme",
+    "Dark Theme",
+    "VSCode",
+    "blue",
+    "fleet"
+  ],
+  "name": "better-coding-theme",
+  "publisher": "nicovy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicovy/vscode-theme"
+  },
+  "shortName": "Better Coding",
+  "version": "2.0.0"
 }

@@ -1,0 +1,38 @@
+{
+   "type": "object",
+   "properties": {
+      "themes": {
+         "type": "array",
+         "items": {
+            "type": "object",
+            "properties": {
+               "name": {
+                  "type": "string",
+                  "description": "The name of the theme"
+               },
+               "baseColor": {
+                  "type": "string",
+                  "description": "The primary color of the theme (editor background)",
+                  "format": "color"
+               },
+               "secondaryColor": {
+                  "type": "string",
+                  "description": "The secondary color of the theme. Used for top bar and borders. If not defined it will be the  brighterLevel or the baseColor 43% lighter",
+                  "format": "color"
+               },
+               "brighterLevel": {
+                  "type": "number",
+                  "description": "The brighter level of the theme. Used for top bar and borders. Used if secondaryColor os not defined. If not defined it will be the baseColor 43% lighter",
+                  "format": "number"
+               },
+               "accentColor": {
+                  "type": "string",
+                  "description": "The accent color",
+                  "format": "color"
+               }
+            },
+            "required": ["name", "baseColor", "accentColor"]
+         }
+      }
+   }
+}
