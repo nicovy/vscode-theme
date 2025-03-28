@@ -16,10 +16,10 @@ build:
 .PHONY: deploy
 deploy:
 	# Deploy the themes
-	make build; \
-	git add *; \
-	read -p "Enter commit message: " msg; \
-		git commit -m "$$msg" || true
+	@make build
+	@git add *; \
+	read -p "Enter commit message: " msg
+	@git commit -m "$$msg" || true
 	@echo "Deploying Themes..."
 	@npm version minor --force
 	@vsce package

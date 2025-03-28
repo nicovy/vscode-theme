@@ -1,4 +1,9 @@
 .vscode/**
 .vscode-test/**
 .gitignore
-vsc-extension-quickstart.md
+images/*.png
+template/**
+themes-color-schema.json
+themes-color.json
+main.go
+Makefile
