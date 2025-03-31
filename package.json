@@ -29,6 +29,21 @@
         "label": "Better Coding - blue",
         "path": "./themes/dark-blue-color-theme.json",
         "uiTheme": "vs-dark"
+      },
+      {
+        "label": "Better Coding - one",
+        "path": "./themes/dark-one-color-theme.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "Better Coding - purple",
+        "path": "./themes/dark-purple-color-theme.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "Better Coding - coffee",
+        "path": "./themes/dark-coffee-color-theme.json",
+        "uiTheme": "vs-dark"
       }
     ]
   },

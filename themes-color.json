@@ -27,6 +27,24 @@
          "accentColor": "#3574f0"
       },
       {
+         "type": "dark",
+         "name": "one",
+         "baseColor": "#282c34",
+         "accentColor": "#3574f0"
+      },
+      {
+         "type": "dark",
+         "name": "purple",
+         "baseColor": "#292d3e",
+         "accentColor": "#7e57c2"
+      },
+      {
+         "type": "dark",
+         "name": "coffee",
+         "baseColor": "#1d1919",
+         "accentColor": "#795548"
+      },
+      {
          "type": "light",
          "name": "light",
          "baseColor": "#d6d8df",
