@@ -41,8 +41,14 @@
       {
          "type": "dark",
          "name": "coffee",
-         "baseColor": "#1d1919",
+         "baseColor": "#363a4d",
          "accentColor": "#795548"
+      },
+      {
+         "type": "dark",
+         "name": "frappe",
+         "baseColor": "#303446",
+         "accentColor": "#ca9ee6"
       },
       {
          "type": "light",

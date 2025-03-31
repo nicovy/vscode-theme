@@ -44,6 +44,11 @@
         "label": "Better Coding - coffee",
         "path": "./themes/dark-coffee-color-theme.json",
         "uiTheme": "vs-dark"
+      },
+      {
+        "label": "Better Coding - frappe",
+        "path": "./themes/dark-frappe-color-theme.json",
+        "uiTheme": "vs-dark"
       }
     ]
   },
