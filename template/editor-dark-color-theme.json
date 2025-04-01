@@ -36,7 +36,7 @@
       "debugConsole.infoForeground": "#bbbbbb",
       "debugConsole.sourceForeground": "#5388f3",
       "debugConsole.warningForeground": "#f0af0c",
-      "debugToolBar.background": "[BRIGHT]",
+      "debugToolBar.background": "[BASE]",
       "debugToolBar.border": "[BRIGHT]",
       "descriptionForeground": "#bbbbbbbb",
       "diffEditor.insertedTextBackground": "[ACCENT]11",
