@@ -106,10 +106,10 @@
       "gitDecoration.ignoredResourceForeground": "#bbbbbb77",
       "gitDecoration.addedResourceForeground": "#72c890",
       "gitDecoration.untrackedResourceForeground": "#72c890",
-      "gitDecoration.modifiedResourceForeground": "#79b4ec",
+      "gitDecoration.modifiedResourceForeground": "#bbbbbb",
       "gitDecoration.deletedResourceForeground": "#c33950",
       "gitDecoration.renamedResourceForeground": "#e1a65a",
-      "gitDecoration.stageModifiedResourceForeground": "#79b4ec",
+      "gitDecoration.stageModifiedResourceForeground": "#bbbbbb",
       "gitDecoration.stageDeletedResourceForeground": "#c33950",
 
       "icon.foreground": "#bbbbbbbf",
