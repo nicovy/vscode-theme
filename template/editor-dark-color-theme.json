@@ -130,7 +130,7 @@
       "list.warningForeground": "#c5a201",
       "list.focusBackground": "[BRIGHT]",
       "list.highlightForeground": "[ACCENT]",
-      "list.hoverBackground": "[BRIGHT]66",
+      "list.hoverBackground": "[ACCENT]19",
       "list.inactiveSelectionBackground": "[BRIGHT]",
       "list.inactiveSelectionForeground": "#dddddd",
       "list.invalidItemForeground": "#bbbbbb77",
