@@ -5,7 +5,7 @@
       {
          "type": "dark",
          "name": "dark",
-         "baseColor": "#1e1f22",
+         "baseColor": "#1b1b1f",
          "accentColor": "#3574f0"
       },
       {
@@ -35,13 +35,13 @@
       {
          "type": "dark",
          "name": "purple",
-         "baseColor": "#292d3e",
+         "baseColor": "#0f0a16",
          "accentColor": "#7e57c2"
       },
       {
          "type": "dark",
          "name": "coffee",
-         "baseColor": "#363a4d",
+         "baseColor": "#140e0c",
          "accentColor": "#795548"
       },
       {
