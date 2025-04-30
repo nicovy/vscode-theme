@@ -5,7 +5,8 @@
       {
          "type": "dark",
          "name": "dark",
-         "baseColor": "#1b1b1f",
+         "baseColor": "#1e1f22",
+         "secondaryColor": "#2e2e34",
          "accentColor": "#3574f0"
       },
       {
