@@ -29,7 +29,8 @@
       {
          "type": "dark",
          "name": "one",
-         "baseColor": "#282c34",
+         "baseColor": "#23272e",
+         "secondaryColor": "#333844",
          "accentColor": "#3574f0"
       },
       {

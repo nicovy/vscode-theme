@@ -179,7 +179,7 @@
       "sideBarSectionHeader.border": "[BRIGHT]",
       "sideBarSectionHeader.foreground": "#dddddd",
       "sideBarTitle.foreground": "#dddddd",
-      "statusBar.background": "[BRIGHT]",
+      "statusBar.background": "[base]",
       "statusBar.border": "[BRIGHT]",
       "statusBar.debuggingBackground": "#6c2022",
       "statusBar.debuggingBorder": "[BRIGHT]",
