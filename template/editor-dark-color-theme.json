@@ -106,7 +106,7 @@
       "gitDecoration.ignoredResourceForeground": "#cdcdcd77",
       "gitDecoration.addedResourceForeground": "#72c890",
       "gitDecoration.untrackedResourceForeground": "#72c890",
-      "gitDecoration.modifiedResourceForeground": "#cdcdcd",
+      "gitDecoration.modifiedResourceForeground": "#CBBA83",
       "gitDecoration.deletedResourceForeground": "#c33950",
       "gitDecoration.renamedResourceForeground": "#e1a65a",
       "gitDecoration.stageModifiedResourceForeground": "#cdcdcd",
@@ -169,6 +169,7 @@
       "quickInput.foreground": "#dddddd",
       "quickInputList.focusForeground": "#dddddd",
       "sash.hoverBorder": "[ACCENT]",
+      "scrollbar.shadow": "#ffffff00",
       "scrollbarSlider.activeBackground": "#cdcdcd33",
       "scrollbarSlider.background": "#cdcdcd15",
       "scrollbarSlider.hoverBackground": "#cdcdcd25",
@@ -250,6 +251,7 @@
       "tree.tableColumnsBorder": "#cdcdcd44",
       "welcomePage.background": "[BASE]",
       "welcomePage.progress.background": "[BASE]",
-      "widget.border": "[BRIGHT]"
+      "widget.border": "[BRIGHT]",
+      "widget.shadow": "#ffffff00"
    }
 }
