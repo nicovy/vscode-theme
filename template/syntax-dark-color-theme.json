@@ -380,7 +380,12 @@
       },
       {
          "name": "js/ts Keyword",
-         "scope": ["keyword.operator.expression.instanceof", "keyword.operator.new", "keyword.operator.ternary", "keyword.operator.expression.keyof"],
+         "scope": [
+            "keyword.operator.expression.instanceof",
+            "keyword.operator.new",
+            "keyword.operator.ternary",
+            "keyword.operator.expression.keyof"
+         ],
          "settings": {
             "foreground": "#a086ef"
          }
@@ -1692,7 +1697,11 @@
       },
       {
          "name": "C++/C#",
-         "scope": ["entity.name.label.cs", "entity.name.scope-resolution.function.call", "entity.name.scope-resolution.function.definition"],
+         "scope": [
+            "entity.name.label.cs",
+            "entity.name.scope-resolution.function.call",
+            "entity.name.scope-resolution.function.definition"
+         ],
          "settings": {
             "foreground": "#cc8c6c"
          }
