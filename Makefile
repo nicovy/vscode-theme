@@ -24,5 +24,5 @@ deploy:
 	@npm version minor
 	@git push
 	@vsce package
-	@vsce publish
+	@NODE_TLS_REJECT_UNAUTHORIZED=0 vsce publish
 	@echo "Themes deployed successfully!"
