@@ -5,57 +5,14 @@
       {
          "type": "dark",
          "name": "dark",
-         "baseColor": "#1e1f22",
-         "secondaryColor": "#2e2e34",
-         "accentColor": "#3574f0"
-      },
-      {
-         "type": "dark",
-         "name": "darker",
-         "baseColor": "#18191b",
-         "accentColor": "#3574f0"
-      },
-      {
-         "type": "dark",
-         "name": "black",
-         "baseColor": "#0d0d0d",
-         "accentColor": "#3574f0"
-      },
-      {
-         "type": "dark",
-         "name": "blue",
-         "baseColor": "#161b22",
-         "accentColor": "#3574f0"
-      },
-      {
-         "type": "dark",
-         "name": "one",
          "baseColor": "#23272e",
          "secondaryColor": "#333844",
          "accentColor": "#3574f0"
       },
       {
          "type": "dark",
-         "name": "purple",
-         "baseColor": "#0f0a16",
-         "accentColor": "#7e57c2"
-      },
-      {
-         "type": "dark",
-         "name": "coffee",
-         "baseColor": "#140e0c",
-         "accentColor": "#795548"
-      },
-      {
-         "type": "dark",
-         "name": "frappe",
-         "baseColor": "#303446",
-         "accentColor": "#ca9ee6"
-      },
-      {
-         "type": "light",
-         "name": "light",
-         "baseColor": "#d6d8df",
+         "name": "darker",
+         "baseColor": "#1b1c25",
          "accentColor": "#3574f0"
       }
    ]
