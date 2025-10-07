@@ -1799,7 +1799,7 @@
       {
          "scope": "text.html,text.svelte, meta.tag",
          "settings": {
-            "foreground": "#82d2ce"
+            "foreground": "#95c6f5"
          }
       }
    ]
