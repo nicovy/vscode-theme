@@ -168,7 +168,7 @@ func main() {
 			brighterLevel, err = brightnessDifference(baseColor, secondaryColor)
 		}
 		if brighterLevel == -1 {
-			brighterLevel = 43
+			brighterLevel = 45
 			if themeType == "light" {
 				brighterLevel = -10
 			}
