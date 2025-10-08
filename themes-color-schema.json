@@ -15,6 +15,11 @@
                   "description": "The primary color of the theme (editor background)",
                   "format": "color"
                },
+               "inputColor": {
+                  "type": "string",
+                  "description": "The input color of the theme (input background). If not defined it will be the baseColor",
+                  "format": "color"
+               },
                "secondaryColor": {
                   "type": "string",
                   "description": "The secondary color of the theme. Used for top bar and borders. If not defined it will be the  brighterLevel or the baseColor 43% lighter",

@@ -160,15 +160,20 @@ func main() {
 		accentColor := themeMap["accentColor"].(string)
 		sColor := themeMap["secondaryColor"]
 		bLevel := themeMap["brighterLevel"]
-		var secondaryColor string
+		iColor := themeMap["inputColor"]
+
+		var inputColor string
+		var secondaryColor string = baseColor
 		brighterLevel := -1.0
 
+		if iColor != nil {
+			inputColor = iColor.(string)
+		}
 		if sColor != nil {
 			secondaryColor = sColor.(string)
 			brighterLevel, err = brightnessDifference(baseColor, secondaryColor)
-		}
-		if brighterLevel == -1 {
-			brighterLevel = 45
+		} else {
+			brighterLevel = 35
 			if themeType == "light" {
 				brighterLevel = -10
 			}
@@ -185,12 +190,13 @@ func main() {
 			combinedString = string(combinedJsonLight)
 			continue // TODO!: remove this when light theme is added
 		}
-		combinedString = strings.Replace(combinedString, "[BASE]", baseColor, -1)
-		combinedString = strings.Replace(combinedString, "[BRIGHT]", secondaryColor, -1)
-		combinedString = strings.Replace(combinedString, "[ACCENT]", accentColor, -1)
+		combinedString = strings.ReplaceAll(combinedString, "[BASE]", baseColor)
+		combinedString = strings.ReplaceAll(combinedString, "[BRIGHT]", secondaryColor)
+		combinedString = strings.ReplaceAll(combinedString, "[ACCENT]", accentColor)
+		combinedString = strings.ReplaceAll(combinedString, "[INPUT]", inputColor)
 
 		// write to file
-		fileName := strings.Replace(fmt.Sprintf("themes/%s-%s-color-theme.json", strings.ToLower(themeType), strings.ToLower(name)), " ", "-", -1)
+		fileName := strings.ReplaceAll(fmt.Sprintf("themes/%s-%s-color-theme.json", strings.ToLower(themeType), strings.ToLower(name)), " ", "-")
 
 		err = os.WriteFile(fileName, []byte(combinedString), 0644)
 		if err != nil {
