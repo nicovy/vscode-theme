@@ -49,6 +49,11 @@
         "label": "Better Coding - forest",
         "path": "./themes/dark-forest-color-theme.json",
         "uiTheme": "vs-dark"
+      },
+      {
+        "label": "Better Coding - mocha",
+        "path": "./themes/dark-mocha-color-theme.json",
+        "uiTheme": "vs-dark"
       }
     ]
   },

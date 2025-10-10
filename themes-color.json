@@ -49,6 +49,12 @@
          "name": "forest",
          "baseColor": "#131d13",
          "accentColor": "#3574f0"
+      },
+      {
+         "type": "dark",
+         "name": "mocha",
+         "baseColor": "#1e2030",
+         "accentColor": "#3574f0"
       }
    ]
 }
