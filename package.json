@@ -11,13 +11,38 @@
   "contributes": {
     "themes": [
       {
+        "label": "Better Coding - one",
+        "path": "./themes/dark-one-color-theme.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "Better Coding - one -1",
+        "path": "./themes/dark-one--1-color-theme.json",
+        "uiTheme": "vs-dark"
+      },
+      {
         "label": "Better Coding - dark",
         "path": "./themes/dark-dark-color-theme.json",
         "uiTheme": "vs-dark"
       },
       {
-        "label": "Better Coding - darker",
-        "path": "./themes/dark-darker-color-theme.json",
+        "label": "Better Coding - night",
+        "path": "./themes/dark-night-color-theme.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "Better Coding - coffee",
+        "path": "./themes/dark-coffee-color-theme.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "Better Coding - sky",
+        "path": "./themes/dark-sky-color-theme.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "Better Coding - forest",
+        "path": "./themes/dark-forest-color-theme.json",
         "uiTheme": "vs-dark"
       }
     ]

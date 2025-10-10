@@ -4,14 +4,44 @@
    "themes": [
       {
          "type": "dark",
-         "name": "dark",
-         "baseColor": "#1d2022",
+         "name": "one",
+         "baseColor": "#23272e",
          "accentColor": "#3574f0"
       },
       {
          "type": "dark",
-         "name": "darker",
-         "baseColor": "#",
+         "name": "one -1",
+         "baseColor": "#1d2127",
+         "accentColor": "#3574f0"
+      },
+      {
+         "type": "dark",
+         "name": "dark",
+         "baseColor": "#1e1f22",
+         "accentColor": "#3574f0"
+      },
+      {
+         "type": "dark",
+         "name": "night",
+         "baseColor": "#1a1b26",
+         "accentColor": "#3574f0"
+      },
+      {
+         "type": "dark",
+         "name": "coffee",
+         "baseColor": "#201b16",
+         "accentColor": "#3574f0"
+      },
+      {
+         "type": "dark",
+         "name": "sky",
+         "baseColor": "#1a252f",
+         "accentColor": "#3574f0"
+      },
+      {
+         "type": "dark",
+         "name": "forest",
+         "baseColor": "#131d13",
          "accentColor": "#3574f0"
       }
    ]
