@@ -163,11 +163,13 @@ func main() {
 		iColor := themeMap["inputColor"]
 
 		var inputColor string
-		var secondaryColor string = baseColor
+		var secondaryColor string
 		brighterLevel := -1.0
 
 		if iColor != nil {
 			inputColor = iColor.(string)
+		} else {
+			inputColor, err = brightenColor(baseColor, -15)
 		}
 		if sColor != nil {
 			secondaryColor = sColor.(string)
