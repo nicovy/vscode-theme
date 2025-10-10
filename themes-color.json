@@ -34,6 +34,12 @@
       },
       {
          "type": "dark",
+         "name": "eggplant",
+         "baseColor": "#191120",
+         "accentColor": "#3574f0"
+      },
+      {
+         "type": "dark",
          "name": "sky",
          "baseColor": "#1a252f",
          "accentColor": "#3574f0"

@@ -36,6 +36,11 @@
         "uiTheme": "vs-dark"
       },
       {
+        "label": "Better Coding - eggplant",
+        "path": "./themes/dark-eggplant-color-theme.json",
+        "uiTheme": "vs-dark"
+      },
+      {
         "label": "Better Coding - sky",
         "path": "./themes/dark-sky-color-theme.json",
         "uiTheme": "vs-dark"
