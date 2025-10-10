@@ -5,13 +5,13 @@
       {
          "type": "dark",
          "name": "dark",
-         "baseColor": "#1e2227",
+         "baseColor": "#1d2022",
          "accentColor": "#3574f0"
       },
       {
          "type": "dark",
          "name": "darker",
-         "baseColor": "#1b1c25",
+         "baseColor": "#",
          "accentColor": "#3574f0"
       }
    ]
